@@ -10,15 +10,16 @@
             list-style: none;
             display: inline-block;
             margin: 10px;
-            background-color: greenyellow;
+            background-color: pink;
             border: black 2px solid;
             border-radius: 20px;
+            text-align: center;
+            color: black;
         }
-        header ul li a {
+        header ul li p {
             font-size: 25px;
-        }
-        svg {
-            background-color: blueviolet;
+            display: inline-block;
+            padding: 15px;
         }
     </style>
 </head>
@@ -26,16 +27,32 @@
     <header>
         <ul>
             <li>
-                <a href="#">order</a> 
-                <svg width="200" height="200" viewbox="0 0 4 4"></svg>
+                <p>order</p> 
+                <svg width="50" height="50" viewbox="0 0 8 8">
+                    <path d="M 2.25 3 2 2 0.5 1" fill=none stroke="darkgrey" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polygon points="2 3 7 3 6 6 3 6" fill="grey"></polygon>
+                    <circle cx="3.5" cy="6.5" r=0.5></circle>
+                    <circle cx="3.5" cy="6.5" r=0.15 fill="white"></circle>
+                    <circle cx="5.5" cy="6.5" r=0.5></circle>
+                    <circle cx="5.5" cy="6.5" r=0.15 fill="white"></circle>
+                </svg>
             </li>
             <li>
-                <a href="#">profile</a>
-                <svg width="200" height="200" viewbox="0 0 4 4"></svg>
+                <p>profile</p> 
+                <svg width="50" height="50" viewbox="0 0 4 4">
+                    <circle cx="2" cy="1" r="1" fill="lightblue"></circle>
+                    <rect x="0" y="2.65" width="4" height="3" fill="lightblue"></rect>
+                    <path d="M 2, 2 2, 2.25 1.3, 4 2.5 4 2 2.25" fill=none stroke="lightblue" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
             </li>
             <li>
-                <a href="#">donate</a>
-                <svg width="200" height="200" viewbox="0 0 4 4"></svg>
+                <p>donate</p> 
+                <svg width="50" height="50" viewbox="0 0 4 4">
+                    <circle cx="1" cy="1" r="1" fill="red"></circle>
+                    <circle cx="3" cy="1" r="1"fill="red"></circle>
+                    <circle cx="2" cy="2" r="1"fill="red"></circle>
+                    <polygon points="0 1.2 2 4 4 1.2"fill="red"></polygon>
+                </svg>
             </li>
         </ul>
     </header>
